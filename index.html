@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pribadi</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif ;
+
+        }
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .petunjuk{
+            background-color: rgb(14, 81, 174);
+            width: 100%; 
+            height: 60px;
+            color: white;
+        }
+        .logo{
+            padding-top: 10px; 
+            padding-bottom: 0px;
+            padding-left: 20px;
+            float: left;
+        }
+        .logo h1{
+            display: inline-block;
+        }
+        .menu{
+            margin-left: 1200px;
+            padding-top: 25px;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            margin-right: 60px;
+        } 
+        .menu ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .menu ul li a:hover{
+            color: lightblue;
+            font-style: italic;
+        }
+
+/*styling biodata*/
+         .kotak{
+            background-color: rgb(115, 183, 241);
+            height: 500px;
+            text-align: center;
+            color: white;
+         }
+
+        .kotak img{
+            width: 250px;
+            height: 250px;
+            border: 7px solid white;
+            margin-top: 90px;
+            margin-right:0px;
+
+        }
+        .kotak h1{
+            margin-top: 10px;
+           margin-bottom: 10px; 
+           font-size: 48px;
+        }  
+        .kotak p{
+            font-size: 16 px;
+        }
+        .Kegiatan{
+            background-color: rgb(245, 221, 185);
+            height:1500px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            margin-top: 50px;
+        }
+        .Kegiatan img{
+            width: 450px;
+            height: 350px;
+            border: 5px;
+            margin-top: 30px;
+            margin-right: 0px;
+        }
+        
+        .Kegiatan h3{
+            margin-top: 10px;
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+        .Kontak{
+            background-color: white;
+            text-align: center;
+            color:black;
+            height: 100px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+
+        footer {
+            background-color: #2a14ee;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+
+</head>
+<body>
+<header>
+ <div class="petunjuk">
+    <div class="logo">
+         <h1>Biodata</h1>
+    </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#Biodata">Biodata</a></li>
+                <li><a href="#Kegiatan">Kegiatan</a></li>
+                <li><a href="#Kontak">Kontak</a></li>
+            </ul>
+        </div>
+ </div>
+</header>  
+
+<section id="Biodata">
+ <div class="kotak">
+    <img src="Suwenten.jpg">
+    <h1>I Nyoman Suwenten </h1>
+    <p> Jurusan Teknik Informatika</p>
+    <p>Program studi Pendidikan Teknik Informatika</p>
+    <p>NIM: 2315051033</p>
+ </div>
+</section>
+
+
+
+<section id="Kegiatan">
+ <div class="Kegiatan">
+    <h1>Kegiatan disemester 1</h1>
+    <img src="Observasi SD.jpg">
+    <h2>Gambar 1: Observasi</h2>
+    <H3>Di semester 1 pada mata kuliah perkembangan peserta didik saya mendapatkan tugas obeservasi perkembangan peserta didik.Tugas obeservasi perkembangan peserta didik Ini saya lakuakn di SD triamerta. Tugas ini dilakukan Secara berkelompok dan merupakan pengalaman pertama saya melakukan pengamatan secara langsung di sekolah </H3>
+    <img src="Rakit komputer.jpg">
+    <h2>Gambar 2: Rakit Komputer</h2>
+    <h3>Tugas projek merakit komputer pada mata kuliah dasar sistem komputer. Saat Merakit komputer bukan hal yang baru lagi bagi saya karena pada saat SMK sudah pernah merakit komputer. Proses pembuatannya saya memiliki beberapa kendala seperti kurangnya memadai fasilitas untuk merakit komputer.</h3>
+    <img src="panitia.jpg">
+    <H2>Gambar 3: Panitia Integer#5</H2>
+    <H3> Kegiatan integer adalah kegiatan yang dilakukan setiap tahun oleh HMJ TI. Digegiatan ini saya mendapat kesempatan menjadi panitia sie perlengkapan. Kepanitiaan ini saya memiliki kesempatan untuk menambah pengalaman- pengalaman baru yang tentunya tidak pernah saya dapatkan di kegiatan yang lainnya</H3>
+
+</div>
+</section>
+
+<section id="Kontak">
+    <div class="Kontak">
+     <h2> Kontak Saya</h2>
+    <p>suwenteninyoman@gmail.com</p>
+    <p>Phone: 087765354043</p>
+    </div>
+</section>
+<footer>
+    <p>&copy;I Nyoman suwenten</p>
+</footer>
+</body>
+</html>
